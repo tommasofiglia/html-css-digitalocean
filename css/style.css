@@ -1,3 +1,23 @@
 .navbar .container{
   padding: 15px 0;
 }
+
+.navbar-default {
+  background-color: white;
+  border: 0px;
+}
+
+.navbar-brand img{
+  width: 140px;
+  margin-top: -5px;
+}
+
+#sign_up{
+  padding: 7px 10px;
+  border: 1px solid #006aff;
+  margin-top: 7px;
+}
+
+.navbar-default .navbar-nav > li > a{
+ color: #031b4f;
+}
