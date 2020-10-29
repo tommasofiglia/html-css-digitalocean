@@ -1,3 +1,14 @@
+/* Utility */
+.darkblue {
+  color: #031b4f;
+}
+
+.clearblue{
+  color: #006aff;
+}
+
+/* Fine utility */
+
 .navbar .container{
   padding: 15px 0;
 }
@@ -18,6 +29,43 @@
   margin-top: 7px;
 }
 
+#sign_up:hover{
+  background-color: #006aff;
+  color: white;
+}
+
 .navbar-default .navbar-nav > li > a{
  color: #031b4f;
+}
+
+.navbar-default .navbar-nav > li > a > span:hover {
+  color: #006aff;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+  color: #031b4f;
+}
+
+.navbar-default .navbar-toggle {
+  border: 0px;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: white;
+}
+
+
+/* Mediaquery */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .nav > li > a {
+      padding: 10px 7px;
+      margin-top: 5px;
+  }
+
+@media screen and (width: 992px) {
+    .nav > li > a {
+      padding: 10px 15px;
+      margin-top: 5px;
+  }
 }
