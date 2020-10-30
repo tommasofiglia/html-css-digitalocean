@@ -57,6 +57,16 @@
   padding-bottom: 30px;
 }
 
+.my-20{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.my-30{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .my-40{
   margin-top: 40px;
   margin-bottom: 40px;
@@ -101,6 +111,10 @@
 
 .ml-80{
   margin-left: 80px;
+}
+
+.mb-30{
+  margin-bottom: 30px;
 }
 
 .mb-70{
@@ -250,6 +264,10 @@ margin-bottom: 30px;
   padding: 10px 10px;
 }
 
+#deploy img{
+  height: 40px;
+}
+
 
 /* Mediaquery */
 
@@ -300,5 +318,13 @@ margin-bottom: 30px;
 
   #deploy ul{
     margin-left: -40px;
+  }
+
+  #deploy .row .col-xs-12{
+    margin-top: -20px;
+  }
+
+  #deploy .margintop_xs{
+    margin-top: 50px;
   }
 }
