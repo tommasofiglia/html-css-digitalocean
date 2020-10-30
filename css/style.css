@@ -13,6 +13,10 @@
   color: white;
 }
 
+.grey{
+  color: #6f7b97
+}
+
 .bg_clearblue{
   background-color: #006aff;
 }
@@ -31,6 +35,14 @@
 
 .border_0{
   border: 0px;
+}
+
+.margin_0{
+  margin: 0px;
+}
+
+.padding_0{
+  padding: 0px;
 }
 
 .text-underline{
@@ -56,6 +68,14 @@
 
 .mt-35{
   margin-top: 35px;
+}
+
+.fw-500{
+  font-weight: 500;
+}
+
+.fw-600{
+  font-weight: 600;
 }
 
 /* Fine utility */
@@ -111,13 +131,13 @@
 .jumbotron{
   background-image: url(../img/jumbo_bg.svg);
   margin-top: 60px;
+  margin-bottom: 0;
   background-size: cover;
   background-position: 45% 60%;
 }
 
 .jumbotron .row {
   padding-top: 70px;
-
 }
 
 .jumbotron h1{
@@ -162,6 +182,28 @@
 margin-top: -35px;
 margin-bottom: 30px;
 }
+
+/* Sezione Brands */
+
+#brands .card{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#brands .card img{
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+#brands h4{
+  font-size: 17px;
+}
+
+
 /* Mediaquery */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -195,5 +237,17 @@ margin-bottom: 30px;
   .jumbotron h1{
     font-weight: 700;
     font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #brands .card{
+    position: static;
+  }
+
+  #brands .card img{
+    margin: auto;
+    position: static;
+    transform: translate(0);
   }
 }
