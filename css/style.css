@@ -14,7 +14,7 @@
 }
 
 .grey{
-  color: #6f7b97
+  color: #6f7b97;
 }
 
 .bg_clearblue{
@@ -62,12 +62,49 @@
   margin-bottom: 40px;
 }
 
+.my-60{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
 .mt-0{
   margin-top: 0;
 }
 
 .mt-35{
   margin-top: 35px;
+}
+
+.mt-40{
+  margin-top: 40px;
+}
+
+.mt-50{
+  margin-top: 50px;
+}
+
+.mt-60{
+  margin-top: 60px;
+}
+
+.mb-20{
+  margin-bottom: 20px;
+}
+
+.mb-30{
+  margin-bottom: 30px;
+}
+
+.mb-40{
+  margin-bottom: 40px;
+}
+
+.ml-80{
+  margin-left: 80px;
+}
+
+.mb-70{
+  margin-bottom: 70px;
 }
 
 .fw-500{
@@ -79,7 +116,7 @@
 }
 
 /* Fine utility */
-/* Inizio Navbar */
+/* Navbar */
 .navbar .container{
   padding: 5px 0;
 }
@@ -125,8 +162,8 @@
 .navbar-default .navbar-toggle:hover {
   background-color: white;
 }
-/* Fine Navbar */
-/* Inizio Jumbotron */
+
+/* Jumbotron */
 
 .jumbotron{
   background-image: url(../img/jumbo_bg.svg);
@@ -202,6 +239,16 @@ margin-bottom: 30px;
 #brands h4{
   font-size: 17px;
 }
+/* Fine Header */
+
+/* Inizio Main */
+/* Sezione Deploy con lista */
+#deploy li{
+  border-left: 2px solid #cccccc;
+  list-style: none;
+  font-size: 20px;
+  padding: 10px 10px;
+}
 
 
 /* Mediaquery */
@@ -240,7 +287,7 @@ margin-bottom: 30px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.5px) {
   #brands .card{
     position: static;
   }
@@ -249,5 +296,9 @@ margin-bottom: 30px;
     margin: auto;
     position: static;
     transform: translate(0);
+  }
+
+  #deploy ul{
+    margin-left: -40px;
   }
 }
