@@ -13,6 +13,14 @@
   color: white;
 }
 
+.bg_clearblue{
+  background-color: #006aff;
+}
+
+.bg_white{
+  background-color: white;
+}
+
 .my-40{
   margin-top: 40px;
   margin-bottom: 40px;
@@ -86,6 +94,31 @@
 .jumbotron p{
   font-size: 23px;
   color: lightgrey;
+}
+
+.jumbotron input{
+  width: 100%;
+  height: 40px;
+  border: 1px solid lightgrey;
+  margin-bottom: 10px;
+}
+
+.jumbotron form button {
+  height: 30px;
+  width: 100%;
+  line-height: 30px;
+  border: 0px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.jumbotron form button div{
+  position: absolute;
+  left: 5%;
+}
+
+.jumbotron form button img{
+  height: 15px;
 }
 
 /* Mediaquery */
