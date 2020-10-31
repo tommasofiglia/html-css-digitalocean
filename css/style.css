@@ -57,6 +57,19 @@
   padding-bottom: 30px;
 }
 
+.py-10{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.pr-10{
+  padding-right: 10px;
+}
+
+.pl-10{
+  padding-left: 10px;
+}
+
 .mx-auto{
   margin: auto;
 }
@@ -122,6 +135,10 @@
   margin-bottom: 40px;
 }
 
+.pr-0{
+  padding-right: 0;
+}
+
 .mr-15{
   margin-right: 15px;
 }
@@ -152,6 +169,10 @@
 
 .fw-600{
   font-weight: 600;
+}
+
+.fs-13{
+  font-size: 13px;
 }
 
 /* Fine utility */
@@ -310,6 +331,18 @@ margin-bottom: 30px;
   font-size: 10px;
 }
 
+/* Sezione id services-test */
+#services-test{
+  background: linear-gradient(0deg, rgba(0,30,154,1) 50%, rgba(0,72,197,1) 100%);
+}
+
+.border_bottom{
+  border-bottom: 1px solid white;
+}
+
+#services-test .row{
+  width: 100%;
+}
 /* Mediaquery */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -375,3 +408,6 @@ margin-bottom: 30px;
     display: none;
   }
 }
+
+/* #0048c5 alto
+#001e9a basso */
