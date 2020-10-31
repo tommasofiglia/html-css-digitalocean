@@ -57,6 +57,10 @@
   padding-bottom: 30px;
 }
 
+.mx-auto{
+  margin: auto;
+}
+
 .my-20{
   margin-top: 20px;
   margin-bottom: 20px;
@@ -107,6 +111,14 @@
 
 .mb-40{
   margin-bottom: 40px;
+}
+
+.mr-15{
+  margin-right: 15px;
+}
+
+.ml-15{
+  margin-left: 15px;
 }
 
 .ml-80{
@@ -256,7 +268,7 @@ margin-bottom: 30px;
 /* Fine Header */
 
 /* Inizio Main */
-/* Sezione Deploy con lista */
+/* Sezione id deploy */
 #deploy li{
   border-left: 2px solid #cccccc;
   list-style: none;
@@ -268,6 +280,14 @@ margin-bottom: 30px;
   height: 40px;
 }
 
+/* Sezione id carousel */
+#carousel img{
+  width: 60%;
+}
+
+#carousel .img-slider a{
+  font-size: 50px;
+}
 
 /* Mediaquery */
 
@@ -296,6 +316,7 @@ margin-bottom: 30px;
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
 }
 
 @media screen and (max-width: 992px) {
@@ -327,5 +348,9 @@ margin-bottom: 30px;
 
   #deploy .margintop_xs{
     margin-top: 50px;
+  }
+
+  #carousel .img-slider a{
+    display: none;
   }
 }
