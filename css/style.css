@@ -298,13 +298,12 @@
   margin-bottom: 10px;
 }
 
-.jumbotron form button div{
-  position: absolute;
-  left: 5%;
-}
-
 .jumbotron form button img{
   height: 20px;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .jumbotron .col-xs-12{
