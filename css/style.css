@@ -17,6 +17,14 @@
   color: #6f7b97;
 }
 
+.lightgrey{
+  color: #bac7e9;
+}
+
+.aqua{
+  color: #00d5d1;
+}
+
 .bg_clearblue{
   background-color: #006aff;
 }
@@ -171,8 +179,8 @@
   font-weight: 600;
 }
 
-.fs-13{
-  font-size: 13px;
+.fs-11{
+  font-size: 11px;
 }
 
 /* Fine utility */
@@ -378,6 +386,10 @@ margin-bottom: 30px;
     font-weight: 700;
     font-size: 36px;
   }
+
+  #feature .col-xs-12{
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (max-width: 767.5px) {
@@ -406,6 +418,10 @@ margin-bottom: 30px;
 
   #carousel .img-slider div{
     display: none;
+  }
+
+  #services-test .col-xs-4{
+    padding-right: 10px;
   }
 }
 
