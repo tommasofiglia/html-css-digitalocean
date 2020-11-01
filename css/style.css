@@ -291,9 +291,9 @@
 }
 
 .jumbotron form button {
-  height: 30px;
+  height: 35px;
   width: 100%;
-  line-height: 30px;
+  line-height: 35px;
   position: relative;
   margin-bottom: 10px;
 }
@@ -304,7 +304,7 @@
 }
 
 .jumbotron form button img{
-  height: 15px;
+  height: 20px;
 }
 
 .jumbotron .col-xs-12{
@@ -458,6 +458,14 @@ footer ul{
 }
 
 @media screen and (max-width: 767.5px) {
+  nav .navbar-brand{
+    margin-left: 20px;
+  }
+
+  nav .navbar-toggle{
+    padding-right: 20px;
+  }
+
   #brands .card{
     position: static;
   }
