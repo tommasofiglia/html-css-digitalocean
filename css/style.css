@@ -399,6 +399,15 @@ footer .socials a{
   font-size: 25px;
   margin-right: 10px;
 }
+
+footer li{
+  margin-top: 10px;
+}
+
+footer ul{
+  list-style: none;
+  padding-left: 0;
+}
 /* Mediaquery */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -425,6 +434,10 @@ footer .socials a{
     .navbar-nav>li>a {
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+
+    footer .col-sm-6{
+      margin-top: 20px;
     }
 
 }
@@ -486,5 +499,9 @@ footer .socials a{
 
   #services-test .col-xs-4{
     padding-right: 10px;
+  }
+
+  footer .col-xs-12{
+    margin-top: 15px;
   }
 }
