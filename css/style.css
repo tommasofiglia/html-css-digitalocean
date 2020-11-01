@@ -131,6 +131,10 @@
   margin-top: 60px;
 }
 
+.mt-80{
+  margin-top: 80px;
+}
+
 .mb-20{
   margin-bottom: 20px;
 }
@@ -351,7 +355,7 @@ margin-bottom: 30px;
 }
 
 /* Sezione id services-test */
-#services-test{
+#services-test , #get_started{
   background: linear-gradient(0deg, rgba(0,30,154,1) 50%, rgba(0,72,197,1) 100%);
 }
 
@@ -368,6 +372,14 @@ margin-bottom: 30px;
 /* Sezione id carousel_2 */
 #carousel_2 .img-slider div span{
   font-size: 15px;
+}
+
+/* Sezione Get Started */
+
+#get_started .container div{
+  padding: 10px 15px;
+  border: 1px solid white;
+  cursor: pointer;
 }
 
 /* Mediaquery */
